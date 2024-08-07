@@ -21,11 +21,6 @@ function compilerjsSCRIPT(field) {
     document.getElementById('mainoutput').innerHTML='';
     const scriptTag = document.getElementById('s');
     scriptTag.innerHTML = field.value;
-    console.oldLog = console.log;    
-    console.log = function(message) {
-        document.getElementById('mainoutput').innerHTML += `<pre>${message}</pre>`;
-        console.oldLog.apply(console, arguments);
-    };
     window.displayOutput = function(message) {
         document.getElementById('mainoutput').innerHTML += `<pre>${message}</pre>`;
     };
@@ -56,7 +51,7 @@ function saveCode() {
     document.body.removeChild(a);
 }
 function saveJavascriptCode() {
-    let filename = prompt("Enter file name", "code");
+    let filename = prompt("Enter file name", "script");
     let publisher = prompt("Enter publisher name", "Unknown");
     const js = document.querySelector('textarea[placeholder="js"]').value;
     const metadataComment = `// Author: ${publisher}\n\n`;

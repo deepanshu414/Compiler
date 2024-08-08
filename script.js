@@ -27,7 +27,7 @@ function compilerjsSCRIPT(field) {
     try {
         eval(scriptTag.innerHTML);
     } catch (error) {
-        document.getElementById('mainoutput').innerHTML = `<pre style="color: red;">${error}</pre>`;
+        document.getElementById('mainoutput').innerHTML += `<pre style="color: red;">${error}</pre>`;
     }
 }
 function clearAll() {

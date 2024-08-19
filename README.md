@@ -70,4 +70,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 <h2>Contact</h2>
 
-For support or inquiries, please reach [Mail](deepanshuantil4113@gmail.com)
+For support or inquiries, please reach [Mail](mailto:deepanshuantil4113@gmail.com)

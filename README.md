@@ -25,6 +25,13 @@
 - `Codecrafter` compiles and optimizes HTML, CSS, and JavaScript for improved performance and compatibility.
 - `Scriptsmith` focuses on compiling modern JavaScript to ensure compatibility with various environments.
 
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 <h2 >Features</h2>
 
 **Codecrafter**
@@ -44,12 +51,15 @@
 
 <h2>Installation</h2>
 
-**Clone the repository**
+1. **Clone the repository**
 
 ```sh
 git clone https://github.com/deepanshu414/Compiler.git
 ```
-
+2. **Navigate to the project directory**
+  ```sh
+    cd Compiler
+  ```
 <h2>Contributing</h2>
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
